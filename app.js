@@ -1,6 +1,6 @@
 // Variáveis globais
 let listaDeNumeroSorteados = [];
-const numeroLimite = 100;
+const numeroLimite = 200;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -14,7 +14,7 @@ function exibirTextoNaTela(tag, texto) {
 // Função para exibir a mensagem inicial do jogo
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 200');
 }
 
 // Chama a função para exibir a mensagem inicial ao carregar a página
